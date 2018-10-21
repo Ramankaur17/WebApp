@@ -1,0 +1,53 @@
+﻿@model MvcAppMVC.Models.PersonModel
+@{
+    ViewBag.Title = "Web application";
+}
+<header>
+    <div class="content-wrapper">
+        <div class="float-left">
+            <p class="site-title">
+                <a href="~/">ASP.NET Web API</a></p>
+        </div>
+    </div>
+</header>
+<div id="body">
+     <input type="text" id="txtName"/>
+    <input type="text" id="txtNumber" />
+    <input type="button" id="btnGet" value="Get Output"/>
+    <div style = "display: none;" id ="result">
+      <dl>
+        <dd style ="font-weight:800">Output: </dd>
+        <dd style ="font-weight:500" id ="lblName" />
+        <dd id ="lblFormattedString" style ="font-weight:500",/>
+       </dl>
+        </div>       
+
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("#btnGet").click(function () {
+                $("#result").show();
+                var person = '{Name: "' + $("#txtName").val() + '", number: "' + $("#txtNumber").val() + '" }';
+                $.ajax({
+                    type: "POST",
+                    url: "/api/person/FormatPerson",
+                    data: person,
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function (response) {
+                        $("#lblName").text(response.Name);
+                        $("#lblFormattedString").text(response.FormattedString)
+                    },
+                    failure: function (response) {
+                        alert(response.responseText);
+                    },
+                    error: function (response) {
+                        alert(response.responseText);
+                    }
+                });
+              
+            });
+        });
+    </script>
+</div>

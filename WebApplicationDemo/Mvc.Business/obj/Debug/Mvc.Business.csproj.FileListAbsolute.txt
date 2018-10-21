@@ -1,0 +1,15 @@
+F:\study\WebApplicationDemo\Mvc.Business\bin\Debug\Mvc.Business.dll
+F:\study\WebApplicationDemo\Mvc.Business\bin\Debug\Mvc.Business.pdb
+F:\study\WebApplicationDemo\Mvc.Business\obj\Debug\Mvc.Business.csprojResolveAssemblyReference.cache
+F:\study\WebApplicationDemo\Mvc.Business\obj\Debug\Mvc.Business.dll
+F:\study\WebApplicationDemo\Mvc.Business\obj\Debug\Mvc.Business.pdb
+F:\WebApp\WebApplicationDemo\Mvc.Business\bin\Debug\Mvc.Business.dll
+F:\WebApp\WebApplicationDemo\Mvc.Business\bin\Debug\Mvc.Business.pdb
+F:\WebApp\WebApplicationDemo\Mvc.Business\obj\Debug\Mvc.Business.csprojResolveAssemblyReference.cache
+F:\WebApp\WebApplicationDemo\Mvc.Business\obj\Debug\Mvc.Business.dll
+F:\WebApp\WebApplicationDemo\Mvc.Business\obj\Debug\Mvc.Business.pdb
+F:\WebAppAssginment\WebApplicationDemo\Mvc.Business\bin\Debug\Mvc.Business.dll
+F:\WebAppAssginment\WebApplicationDemo\Mvc.Business\bin\Debug\Mvc.Business.pdb
+F:\WebAppAssginment\WebApplicationDemo\Mvc.Business\obj\Debug\Mvc.Business.csprojResolveAssemblyReference.cache
+F:\WebAppAssginment\WebApplicationDemo\Mvc.Business\obj\Debug\Mvc.Business.dll
+F:\WebAppAssginment\WebApplicationDemo\Mvc.Business\obj\Debug\Mvc.Business.pdb
